@@ -12,5 +12,8 @@ allow cameraserver cameraserver:fd use;
 # Allow writing to mpdecision
 unix_socket_send(cameraserver, mpdecision, mpdecision)
 
+# For text relocations in /system/vendor/lib/libmmjpeg.so
+allow cameraserver system_file:file execmod;
+
 # Allow access to sysfs
 allow cameraserver sysfs:file { getattr read open };
