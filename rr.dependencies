@@ -1,13 +1,19 @@
 [
  {
     "remote": "github",
-    "repository": "nexus5oof/kernel_lge_hammerhead",
+    "repository": "ooOJust4FunOoo/device_lge_hammerhead_RR",
+    "target_path": "device/lge/hammerhead",
+    "branch": "pie"
+ },
+ {
+    "remote": "github",
+    "repository": "ooOJust4FunOoo/kernel_lge_hammerhead_RR",
     "target_path": "kernel/lge/hammerhead",
     "branch": "pie"
  },
  {
     "remote": "github",
-    "repository": "nexus5oof/vendor_lge",
+    "repository": "ooOJust4FunOoo/vendor_lge_RR",
     "target_path": "vendor/lge",
     "branch": "pie"
  }
