@@ -240,6 +240,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \
     power.hammerhead
 
+PRODUCT_PROPERTY_OVERRIDES += \
+   persist.power.skip_tb=true \
+   persist.power.skip_st=true
+
 # Thermal HAL
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl
