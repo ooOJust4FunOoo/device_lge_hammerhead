@@ -121,6 +121,7 @@ PRODUCT_PACKAGES := \
     wpa_supplicant.conf
 
 PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-service \
     android.hardware.bluetooth@1.0-impl \
     libbt-vendor
 
@@ -221,6 +222,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
+
+# Trust HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.trust@1.0-service
 
 # USB HAL service
 PRODUCT_PACKAGES += \

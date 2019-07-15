@@ -1,2 +1,2 @@
-# /devices/soc0/hw_platform (libacdbloader.so)
-r_dir_file(audioserver, sysfs_soc)
+r_dir_file(audioserver, sysfs_socinfo)
+r_dir_file(audioserver, hal_power_hwservice)
